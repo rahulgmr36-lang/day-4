@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --ps-blue: #00439C;
+  --ps-dark-blue: #002D66;
+  --ps-accent: #0072CE;
+  --ps-black: #000000;
+  --ps-white: #FFFFFF;
+  --ps-light-gray: #F5F5F5;
+  --ps-gray: #666666;
+  --ps-triangle: #00AC9F;
+  --ps-circle: #F05050;
+  --ps-cross: #5266AB;
+  --ps-square: #CE7DBE;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--ps-white);
+  color: var(--ps-black);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background-color: var(--ps-blue);
+  color: var(--ps-white);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  background-color: var(--ps-dark-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 67, 156, 0.3);
+}

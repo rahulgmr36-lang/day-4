@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="container nav-content">
+    <div class="logo">
+      <a routerLink="/">
+        <span class="ps-logo">PS</span> Store
+      </a>
+    </div>
+    <ul class="nav-links">
+      <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+      <li><a routerLink="/products" routerLinkActive="active">Products</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active">Contact Us</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn">
+        <i class="cart-icon">🛒</i>
+        <span class="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</nav>
